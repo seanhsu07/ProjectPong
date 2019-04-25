@@ -13,3 +13,6 @@ The game runs in an infinite loop and only breaks after one player loses. After 
 - DAC
 - DMA
 - SPI
+
+# Some Sidenote
+This is my first project with this size and my team managed to finish this in less than a week. I am grateful for my team members' help and support. If you stumbled upon this page for some ideas or just looking for things to play around with, I hope you have as much fun playing with it as I make it. 
