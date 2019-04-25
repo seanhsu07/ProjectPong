@@ -1,1 +1,15 @@
 # ProjectPong
+Project Pong is a project that utilizes the microccontroller STM32 to create a mini Pong video game on the ILI9341 LCD display. 
+
+# Components
+The components used are the ILI9341 diaplay, STM32F0 discovery board, CFAL LCD diaplay, and a speaker. Both displays uses SPI communication interface and the CFAL device also uses DMA transfer to diaplay messages. 
+
+# Software
+The game runs in an infinite loop and only breaks after one player loses. The game has four modes: easy, normal, hard, and harder?. The game modes are based on the speed of the ball. In the moder Harder?, a pad is implemented in the middle to increase the difficulty for both players. The DAC output of the microcontroller produces a short beep with the speaker after one player scores, and a series of sound after the game ends. 
+
+# Peripherals Used
+- GPIO
+- Timers
+- DAC
+- DMA
+- SPI
